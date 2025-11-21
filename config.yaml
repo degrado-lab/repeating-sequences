@@ -1,0 +1,18 @@
+cluster_size: 10
+repeat_unit_length: 10
+project_root: "/path/to/your/repeat/folder"
+
+tmalign_path: "path/to/your/TMalign"
+
+clusterwise_rmsd_cutoff: 1.2
+use_gpu: true
+
+input_dir: "{project_root}/all_pdbs"
+output_dir: "{project_root}/outputs"
+all_clusters_dir: "{project_root}/all_clusters"
+all_pdbs_dir: "{project_root}/all_pdbs"
+cluster_csv_file: "{project_root}/cluster_counts_10mer.csv"
+
+clusters_to_members_file: "{output_dir}/clusters_to_members.txt"
+
+
